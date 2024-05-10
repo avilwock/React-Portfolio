@@ -1,31 +1,14 @@
-// import React from 'react'
-import ReactDOM from 'react-dom/client'
-import { createBrowserRouter, RouterProvider } from 'react-router-dom';
-import './index.css'
+import React from 'react';
+import { createRoot } from 'react-dom/client';
+import { BrowserRouter as Router } from 'react-router-dom'; // Import BrowserRouter
+import Nav from './components/Nav.jsx';
+import App from './App.jsx';
 
-import App from './App.jsx'
-import ErrorPage from './pages/ErrorPage';
-import HomePage from './pages/HomePage';
-import ProfilePage from ',/pages/ProfilePage';
+const root = createRoot(document.getElementById('root'));
 
-const router = createBrowserRouter([
-  {
-    path: '/',
-    element: <App />,
-    errorElement: <ErrorPage />,
-    children: [
-      {
-        index: true,
-        element: <HomePage />,
-      },
-      {
-        index: true,
-        element: <ProfilePage />
-      }
-    ]
-  }
-])
-
-ReactDOM.createRoot(document.getElementById('root')).render(
-  <RouterProvider router={router} />
-)
+root.render(
+  <Router>
+    < Nav />
+    <App />
+  </Router>
+);
