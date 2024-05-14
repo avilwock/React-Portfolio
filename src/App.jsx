@@ -14,30 +14,7 @@ function App() {
           link="https://github.com/avilwock/Code-Quiz"
           className="portfolio-item"
           />
-            <PortfolioItem 
-          image="" 
-          title="" 
-          description="" 
-          link=""
-          />
-            <PortfolioItem 
-          image="" 
-          title="" 
-          description="" 
-          link=""
-          />
-            <PortfolioItem 
-          image="" 
-          title="" 
-          description="" 
-          link=""
-          />
-            <PortfolioItem 
-          image="" 
-          title="" 
-          description="" 
-          link=""
-          />
+
         </div>
       </main>
     </>

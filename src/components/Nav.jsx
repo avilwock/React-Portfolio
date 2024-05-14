@@ -1,6 +1,4 @@
-import { Link, Route, Routes } from 'react-router-dom';
-import ProfilePage from '../pages/ProfilePage.jsx'; // Import ProfilePage component
-import HomePage from '../pages/HomePage.jsx';
+import { Link } from 'react-router-dom';
 
 export default function Nav() {
   return (
@@ -23,25 +21,13 @@ export default function Nav() {
         justifyContent: 'flex-end',
         padding: 0
       }}>
-        {[
-          { to: '/', label: 'Home' },
-          { to: '/ProfilePage', label: 'About Me' }
-        ].map((item, index) => (
-          <li key={index} style={{ padding: '5px' }}>
-            <Link 
-              className="nav-link text-light" 
-              style={{ color: 'white' }} 
-              to={item.to}
-            >
-              {item.label}
-            </Link>
-          </li>
-        ))}
+        <li style={{ padding: '5px' }}>
+          <Link className="nav-link text-light" style={{ color: 'white' }} to="/">Home</Link>
+        </li>
+        <li style={{ padding: '5px' }}>
+          <Link className="nav-link text-light" style={{ color: 'white' }} to="/profile">About Me</Link>
+        </li>
       </ul>
-      <Routes>
-        <Route path="/ProfilePage" element={<ProfilePage />} />
-        <Route path="/" element={<HomePage />} />
-      </Routes>
     </nav>
   );
 }
