@@ -1,7 +1,7 @@
 const PortfolioItem = ({ image, title, description, link, projectLink, isSpecial, comingSoon }) => {
     return (
         <div style={{ 
-            width: isSpecial? '600px' : '400px',
+            width: isSpecial? '800px' : '400px',
             height: '350px',
             border: 'groove black 5px',
             margin: '50px',
