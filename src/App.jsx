@@ -5,7 +5,7 @@ import './App.css'
 function App() {
   return (
     <>
-      <main className="mx-3" style={{display: 'flex', justifyContent: 'center', alignItems: 'center'}}>
+      <main className="mx-3" style={{display: 'flex', justifyContent: 'center', alignItems: 'center', margin: '0px'}}>
         <div id = "portfolio-projects">
           <PortfolioItem 
           image="src\images\CodeQuiz Img.png"
@@ -62,6 +62,15 @@ function App() {
           link="https://github.com/avilwock/Car-GO"
           projectLink="https://warm-headland-43159-c6c90b718fb4.herokuapp.com/"
           className="portfolio-item"
+          />
+          <PortfolioItem
+          image="src\images\GoalGalaxy.png"
+          title="Goal Galaxy"
+          comingSoon="Coming Soon"
+          description="a goal planning activity tracker app"
+          link="https://github.com/avilwock/Goal-Galaxy"
+          className="special-item"
+          isSpecial={true}
           />
         </div>
       </main>
