@@ -1,6 +1,6 @@
 [
     {
-      "image": "src/images/CodeQuiz Img.png",
+      "image": "images/CodeQuiz Img.png",
       "title": "JavaScript Quiz",
       "description": "This project is designed to test one's knowledge of JavaScript in a multiple choice test format.",
       "link": "https://github.com/avilwock/Code-Quiz",
@@ -8,7 +8,7 @@
       "isSpecial": false
     },
     {
-      "image": "src/images/JATE.png",
+      "image": "images/JATE.png",
       "title": "Text Editor",
       "description": "This project is designed to store data online and offline",
       "link": "https://github.com/avilwock/Text-Editor",
@@ -16,7 +16,7 @@
       "isSpecial": false
     },
     {
-      "image": "src/images/TechBlog.png",
+      "image": "images/TechBlog.png",
       "title": "Tech Blog",
       "description": "a blog to talk about fun tech related facts",
       "link": "https://github.com/avilwock/Tech-Blog",
@@ -24,7 +24,7 @@
       "isSpecial": false
     },
     {
-      "image": "src/images/WorkDayScheduler.png",
+      "image": "images/WorkDayScheduler.png",
       "title": "Work Day Scheduler",
       "description": "A place to fill out everything you need to accomplish during your workday",
       "link": "https://github.com/avilwock/Work-Day-Scheduler",
@@ -32,14 +32,14 @@
       "isSpecial": false
     },
     {
-      "image": "src/images/READMEGenerator.png",
+      "image": "images/READMEGenerator.png",
       "title": "README Generator",
       "description": "a series of prompts that you can answer to easily generate your own README",
       "link": "https://github.com/avilwock/README-Generator",
       "isSpecial": false
     },
     {
-      "image": "src/images/PageTurnerPlates.png",
+      "image": "images/PageTurnerPlates.png",
       "title": "Page Turner Plates",
       "description": "an app used to find recipes, and books related to the ingredient searched",
       "link": "https://github.com/avilwock/Page-Turner-Plates",
@@ -47,7 +47,7 @@
       "isSpecial": false
     },
     {
-      "image": "src/images/Car-GO.png",
+      "image": "images/Car-GO.png",
       "title": "Car-GO",
       "description": "a blog used to discuss issues related to cars",
       "link": "https://github.com/avilwock/Car-GO",
@@ -55,7 +55,7 @@
       "isSpecial": false
     },
     {
-      "image": "src/images/Galaxy.jpg",
+      "image": "images/Galaxy.jpg",
       "title": "Goal Galaxy",
       "comingSoon": "Coming Soon",
       "description": "a goal planning activity tracker app",
