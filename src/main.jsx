@@ -1,16 +1,31 @@
-import { createRoot } from 'react-dom/client';
-import { BrowserRouter as Router } from 'react-router-dom'; // Import BrowserRouter
-import Nav from './components/Nav.jsx';
+import ReactDOM from 'react-dom/client'
+// Bringing in the required imports from 'react-router-dom' to set up application routing behavior
+import { createBrowserRouter, RouterProvider } from 'react-router-dom';
+
 import App from './App.jsx';
-// import Home from './pages/HomePage.jsx';
-import ProfilePage from './pages/ProfilePage.jsx';
+import Error from './pages/ErrorPage.jsx';
+import Home from './pages/HomePage.jsx';
+import About from './pages/ProfilePage.jsx';
 
-const root = createRoot(document.getElementById('root'));
+// Define the accessible routes, and which components respond to which URL
+const router = createBrowserRouter([
+  {
+    path: '/',
+    element: <App />,
+    errorElement: <Error />,
+    children: [
+      {
+        index: true,
+        element: <Home />,
+      },
+      {
+        path: '/About',
+        element: <About />,
+      },
+    ],
+  },
+]);
 
-root.render(
-  <Router>
-    <Nav />
-    <ProfilePage/>
-    <App />
-  </Router>
+ReactDOM.createRoot(document.getElementById('root')).render(
+  <RouterProvider router={router} />
 );

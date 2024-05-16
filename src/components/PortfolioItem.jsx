@@ -1,10 +1,12 @@
+import { Link } from 'react-router-dom';
+
 const PortfolioItem = ({ image, title, description, link, projectLink, isSpecial, comingSoon }) => {
     return (
         <div style={{ 
             width: isSpecial? '800px' : '400px',
             height: '350px',
             border: 'groove black 5px',
-            margin: '50px',
+            margin: '20px 30px',
             borderRadius: '20px',
             display: 'inline-block',
             textAlign: 'center',
@@ -24,8 +26,8 @@ const PortfolioItem = ({ image, title, description, link, projectLink, isSpecial
             <h3 style={{ margin: '10px 0 0' }}>{title}</h3>
             <p>{comingSoon}</p>
             <p style={{ margin: '5px 0' }}>{description}</p>
-            <a href={link} target="_blank" rel="noopener noreferrer" style={{ textDecoration: 'none', backgroundColor: 'black', color: 'blue' }}>View Repository</a><br></br>
-            <a href={projectLink} target="_blank" rel="noopener noreferrer" style={{ textDecoration: 'none', color: 'blue'}}>View Project</a>
+            <Link to={link} style={{ textDecoration: 'none', backgroundColor: 'black', color: 'blue' }}>View Repository</Link><br></br>
+            <Link to={projectLink} style={{ textDecoration: 'none', color: 'blue'}}>View Project</Link>
         </div>
     );
 }
