@@ -30,13 +30,16 @@ export default function Nav() {
         alignSelf: 'flex-start'
       }}>
         <li style={{ padding: '5px' }}>
-          <Link className="nav-link text-light" style={{ color: 'white' }} to="/">Home</Link>
+          <Link className="nav-link text-light" style={{ color: 'white' }} to="/home">Home</Link>
         </li>
         <li style={{ padding: '5px' }}>
           <Link className="nav-link text-light" style={{ color: 'white' }} to="/about">About Me</Link>
         </li>
         <li style={{ padding: '5px' }}>
         <Link className="nav-link text-light" style={{ color: 'white' }} to="/contact">Contact Me</Link>
+        </li>
+        <li style={{ padding: '5px' }}>
+        <Link className="nav-link text-light" style={{ color: 'white' }} to="/resume">Resume</Link>
         </li>
       </ul>
     </nav>

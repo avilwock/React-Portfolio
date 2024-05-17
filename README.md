@@ -77,6 +77,8 @@ To use this project, open the link through Netlify, which will take you to the h
 
 ![alt text](images/ReactPortfolio3.png)
 
+![alt text](images/ReactPortfolio4.png)
+
 ## Credits
 
 Logan Garland, Coding bootcamp, University of Irvine California

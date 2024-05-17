@@ -7,6 +7,7 @@ import Error from './pages/ErrorPage.jsx';
 import Home from './pages/HomePage.jsx';
 import About from './pages/ProfilePage.jsx';
 import Contact from './pages/ContactPage.jsx';
+import Resume from './pages/ResumePage.jsx';
 
 // Define the accessible routes, and which components respond to which URL
 const router = createBrowserRouter([
@@ -20,15 +21,23 @@ const router = createBrowserRouter([
     children: [
       {
         index: true,
+        element: <About />,
+      },
+      {
+        path: 'home',
         element: <Home />,
       },
       {
-        path: '/About',
+        path: 'about',
         element: <About />,
       },
       { 
-        path: '/Contact',
+        path: 'contact',
         element: <Contact />,
+      },
+      {
+        path: 'resume',
+        element: <Resume />,
       }
     ],
   },
