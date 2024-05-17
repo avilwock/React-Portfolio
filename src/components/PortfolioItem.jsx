@@ -8,7 +8,7 @@ const PortfolioItem = () => {
             {PortfolioData.map((item, index) => (
                 <div key={index} style={{ 
                     width: item.isSpecial ? '800px' : '400px',
-                    height: '350px',
+                    height: '400px',
                     border: 'groove black 5px',
                     margin: '20px 30px',
                     borderRadius: '20px',
@@ -16,7 +16,7 @@ const PortfolioItem = () => {
                     textAlign: 'center',
                     verticalAlign: 'top',
                     opacity: item.isComingSoon ? 0.5 : 1, // Apply opacity based on isComingSoon
-                        pointerEvents: item.isComingSoon ? 'none' : 'auto' // Disable pointer events if coming soon
+                    pointerEvents: item.isComingSoon ? 'none' : 'auto' // Disable pointer events if coming soon
                 }}>
                     <img
                         src={item.image}
@@ -31,9 +31,13 @@ const PortfolioItem = () => {
                     <h3 style={{ margin: '10px 0 0' }}>{item.title}</h3>
                     <p style={{ margin: '5px 0' }}>{item.description}</p>
                     {item.link &&
-                    <Link to={item.link} style={{ textDecoration: 'none', backgroundColor: 'black', color: 'blue' }}>View Repository</Link>}<br></br>
+                    <button style={{ textDecoration: 'none', backgroundColor: '#4B0082', color: 'white', border: 'none', borderRadius: '5px', padding: '10px', margin: '5px' }}>
+                        <Link to={item.link} style={{ color: 'silver', textDecoration: 'none' }}>View Repository</Link>
+                    </button>}<br></br>
                     {item.projectLink &&
-                    <Link to={item.projectLink} style={{ textDecoration: 'none', color: 'blue'}}>View Project</Link>}
+                    <button style={{ textDecoration: 'none', backgroundColor: '#4B0082', color: 'white', border: 'none', borderRadius: '5px', padding: '10px', margin: '5px' }}>
+                        <Link to={item.projectLink} style={{ color: 'silver', textDecoration: 'none' }}>View Project</Link>
+                    </button>}
                 </div>
             ))}
         </div>

@@ -2,7 +2,7 @@
     {
       "image": "images/CodeQuiz Img.png",
       "title": "JavaScript Quiz",
-      "description": "This project is designed to test one's knowledge of JavaScript in a multiple choice test format.",
+      "description": "This project is designed to test one's knowledge of JavaScript in a multiple choice test format, utilizing html, css, and javascript",
       "link": "https://github.com/avilwock/Code-Quiz",
       "projectLink": "https://avilwock.github.io/Code-Quiz/",
       "isSpecial": false
@@ -60,7 +60,7 @@
       "comingSoon": "Coming Soon",
       "description": "a goal planning activity tracker app",
       "link": "https://github.com/avilwock/Goal-Galaxy",
-      "isSpecial": true,
+      "isSpecial": false,
       "isComingSoon": true
     }
   ]

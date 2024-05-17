@@ -8,7 +8,7 @@ export default function Nav() {
       padding: '5px',
       top: 0,
       width: '100%',
-      backgroundColor: 'blue',
+      backgroundColor: 'indigo',
       zIndex: 1000,
       display: 'flex',
       flexDirection: 'column',
