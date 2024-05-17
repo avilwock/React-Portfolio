@@ -7,7 +7,7 @@ import '../App.css';
 
 const PortfolioItem = () => {
     return (
-        <div style={{ marginBottom: '50px', textAlign: 'center'}}>
+        <div style={{  textAlign: 'center'}}>
             {/*pulls in portfolio data and maps over it. It assigns a unique key of index and sets the item prop*/}
             {PortfolioData.map((item, index) => (
                 <div key={index} style={{ 

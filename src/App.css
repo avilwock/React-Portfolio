@@ -3,7 +3,18 @@
 body {
     background-color: slateblue;
     color: white;
+    display: flex;
+    flex-direction: column;
 }
+
+main {
+    flex: 1;
+}
+
+#root {
+    flex: 1;
+  }
+  
 
 #portfolio-projects {
     display: flex;
