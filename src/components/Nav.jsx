@@ -29,6 +29,9 @@ export default function Nav() {
         <li style={{ padding: '5px' }}>
           <Link className="nav-link text-light" style={{ color: 'white' }} to="/about">About Me</Link>
         </li>
+        <li style={{ padding: '5px' }}>
+        <Link className="nav-link text-light" style={{ color: 'white' }} to="/contact">Contact Me</Link>
+        </li>
       </ul>
     </nav>
   );
