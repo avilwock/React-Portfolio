@@ -12,8 +12,11 @@ import Contact from './pages/ContactPage.jsx';
 const router = createBrowserRouter([
   {
     path: '/',
+    //sets the app as the route for the elements
     element: <App />,
+    //sets the error page up as the error element
     errorElement: <Error />,
+    //sets the routes that we can access
     children: [
       {
         index: true,

@@ -1,3 +1,4 @@
+//creates the contactpage
 export default function ContactPage() {
     return (
         <>

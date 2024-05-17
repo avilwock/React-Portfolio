@@ -2,7 +2,7 @@
 export default function ProfilePage() {
   return (
     <>
-    <h1 style={{ marginTop: '150px', display: 'flex', justifyContent: 'center', fontSize: '65px' }}>About Me</h1>
+    <h1 style={{ marginTop: '150px', display: 'flex', justifyContent: 'center', fontSize: '50px' }}>About Me</h1>
       <div style={{ display: 'flex', justifyContent: 'center', color: 'white' }}>
         
           <div className="container pt-4" style={{ maxWidth: '400px', textAlign: 'center' }}>
