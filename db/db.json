@@ -57,9 +57,7 @@
     {
       "image": "images/Galaxy.jpg",
       "title": "Goal Galaxy",
-      "comingSoon": "Coming Soon",
-      "description": "a goal planning activity tracker app",
-      "link": "https://github.com/avilwock/Goal-Galaxy",
+      "description": "Coming Soon",
       "isSpecial": false,
       "isComingSoon": true
     }

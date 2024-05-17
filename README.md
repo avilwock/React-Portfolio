@@ -20,7 +20,7 @@ This program is deployed using Netlify
 
 ## User Story
 ```md
-AS AN employee looking for a job for a beginning we developer,
+AS AN employee looking for a job for a beginning web developer,
 I WANT to create a portfolio of my projects to show case my abilities
 SO THAT I can show that I am a good candidate for the position
 ```
