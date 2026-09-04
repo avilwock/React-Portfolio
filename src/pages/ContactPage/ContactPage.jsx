@@ -12,6 +12,12 @@ export default function ContactPage() {
         className={styles.myForm}
       >
         <input
+          type="hidden"
+          name="form-name"
+          value="contact"
+        />
+
+        <input
           className={styles.name}
           type="text"
           name="name"
@@ -32,12 +38,9 @@ export default function ContactPage() {
           name="message"
           placeholder="Please type your message"
           required
-        />
+        ></textarea>
 
-        <button
-          className={styles.button}
-          type="submit"
-        >
+        <button className={styles.button} type="submit">
           Submit
         </button>
       </form>
