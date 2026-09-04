@@ -3,11 +3,11 @@ import styles from "./ContactPage.module.css";
 export default function ContactPage() {
   return (
     <>
-      <form name="contact" data-netlify="true" hidden>
+      <form name="contact" netlify hidden>
         <input type="text" name="name" />
         <input type="email" name="email" />
         <textarea name="message"></textarea>
-      </form>
+    </form>
 
       <div>
         <h2 className={styles.contactTitle}>Contact Me</h2>
@@ -15,7 +15,7 @@ export default function ContactPage() {
         <form
           name="contact"
           method="POST"
-          data-netlify="true"
+          netlify
           className={styles.myForm}
         >
           <input
