@@ -12,7 +12,7 @@ const PortfolioItem = () => {
             {PortfolioData.map((item, index) => (
                 <div key={index} style={{ 
                     //if the item is labeled as isSpecial, it doubles the length of the box
-                    width: item.isSpecial ? '800px' : '400px',
+                    width: item.isSpecial ? '500px' : '300px',
                     height: '400px',
                     //gives a groove border of indigo
                     border: 'groove indigo 10px',
@@ -31,7 +31,7 @@ const PortfolioItem = () => {
                         alt={item.title}
                         style={{
                             //sets the item so that if it's special, the image is twice the length of not
-                            width: item.isSpecial ? '500px' : '250px',
+                            width: item.isSpecial ? '350px' : '250px',
                             height:'200px',
                             borderRadius: '20px',
                             marginTop: '5px',

@@ -6,7 +6,7 @@ import App from './App.jsx';
 import Error from './pages/ErrorPage.jsx';
 import Home from './pages/HomePage.jsx';
 import About from './pages/ProfilePage.jsx';
-import Contact from './pages/ContactPage.jsx';
+import Contact from './pages/ContactPage/ContactPage.jsx';
 import Resume from './pages/ResumePage.jsx';
 
 // Define the accessible routes, and which components respond to which URL
