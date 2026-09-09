@@ -40,11 +40,12 @@ const PortfolioItem = () => {
                     <h3 style={{ margin: '10px 0 0' }}>{item.title}</h3>
                     <p style={{ margin: '5px 0' }}>{item.description}</p>
                     {item.link &&
-                    <button style={{ textDecoration: 'none', backgroundColor: '#4B0082', color: 'white', border: 'none', borderRadius: '5px', padding: '10px', margin: '5px' }}>
-                        <Link to={item.link} style={{ color: 'silver', textDecoration: 'none' }}>View Repository</Link>
+                    <button style={{ textDecoration: 'none', backgroundColor: '#4B0082', color: 'white', border: 'none', borderRadius: '5px', padding: '10px', margin: '5px', width: '200px'
+                     }}>
+                        <Link to={item.link} style={{ color: 'silver', textDecoration: 'none'}}>View Repository</Link>
                     </button>}<br></br>
                     {item.projectLink &&
-                    <button style={{ textDecoration: 'none', backgroundColor: '#4B0082', color: 'white', border: 'none', borderRadius: '5px', padding: '10px', margin: '5px' }}>
+                    <button style={{ textDecoration: 'none', backgroundColor: '#4B0082', color: 'white', border: 'none', borderRadius: '5px', padding: '10px', margin: '5px', width: '200px' }}>
                         <Link to={item.projectLink} style={{ color: 'silver', textDecoration: 'none' }}>View Project</Link>
                     </button>}
                 </div>
